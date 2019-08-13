@@ -9,8 +9,8 @@ matplotlib.use("Agg")
 from keras.preprocessing.image import ImageDataGenerator
 from keras.callbacks import LearningRateScheduler
 from keras.optimizers import SGD
-from pyimagesearch.resnet import ResNet
-from pyimagesearch import config
+from resnet import ResNet
+import config
 from sklearn.metrics import classification_report
 from imutils import paths
 import matplotlib.pyplot as plt
