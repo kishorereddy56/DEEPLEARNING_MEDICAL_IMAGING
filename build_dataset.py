@@ -2,7 +2,7 @@
 # python build_dataset.py
 
 # import the necessary packages
-from pyimagesearch import config
+import config
 from imutils import paths
 import random
 import shutil
